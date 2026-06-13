@@ -3,287 +3,258 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Shreya &amp; Ankit | 25.11.2026</title>
+<title>Shreya &amp; Ankit | 25 · 11 · 2026</title>
 <meta property="og:title" content="Shreya &amp; Ankit are getting married!">
-<meta property="og:description" content="25th November 2026 · Mannat Palace, Gwalior · #AnkitkiShreRni">
-<meta property="og:image" content="./images/hands.jpg">
+<meta property="og:description" content="25th November 2026 · Mannat Palace, Gwalior">
+<meta property="og:image" content="./images/engage.jpg">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --pink:#e8b4c0;--pink-d:#c9808e;--pink-l:#f7e4ea;--pink-ll:#fdf0f3;
-  --gold:#c9a96e;--gold-l:#f0e0c0;
-  --cream:#fdf8f5;--white:#ffffff;
-  --deep:#2a1a1f;--mid:#7a5060;--soft:#b09090;
+  --bg:#f5f0eb;
+  --bg2:#ede8e2;
+  --white:#fffdf9;
+  --dark:#1c1410;
+  --mid:#5a4a3a;
+  --soft:#9a8878;
+  --pink:#c9808e;
+  --pink-l:#e8c4c8;
+  --gold:#a87d4a;
 }
 html{scroll-behavior:smooth}
-body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--deep);font-weight:300;margin:0}
-nav{position:sticky;top:0;z-index:100;display:flex;justify-content:center;align-items:center;gap:2rem;padding:.9rem 2rem;background:rgba(42,26,31,.78);border-bottom:1px solid rgba(232,180,192,.1);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
-nav a{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.75);text-decoration:none;transition:color .2s}
-nav a:hover{color:var(--pink)}
-.nh{color:var(--pink);font-size:14px}
-#hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;position:relative;overflow:hidden;background:var(--deep)}
-.hbg{position:absolute;inset:0;background:url('./images/hands.jpg') center center/cover no-repeat;opacity:.72}
-.hov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(42,26,31,.5) 0%,rgba(42,26,31,.25) 45%,rgba(42,26,31,.7) 100%)}
-.hfl1{position:absolute;top:-40px;left:-40px;font-size:180px;opacity:.06;transform:rotate(-20deg);pointer-events:none;line-height:1}
-.hfl2{position:absolute;bottom:-30px;right:-30px;font-size:160px;opacity:.06;transform:rotate(15deg);pointer-events:none;line-height:1}
-.hfl3{position:absolute;top:30%;left:2%;font-size:80px;opacity:.07;transform:rotate(-10deg);pointer-events:none}
-.hfl4{position:absolute;top:25%;right:2%;font-size:80px;opacity:.07;transform:rotate(10deg);pointer-events:none}
-.hc{position:relative;z-index:2;width:100%}
-.gmb{display:inline-block;background:rgba(232,180,192,.85);color:var(--deep);font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;padding:.5rem 1.75rem;border-radius:100px;margin-bottom:1.5rem}
-.hn{font-family:'Cormorant Garamond',serif;font-size:clamp(3.5rem,11vw,7rem);font-weight:300;line-height:.95;color:#fff}
-.hn em{font-style:italic;color:var(--pink)}
-.amp{color:var(--gold-l);font-size:55%;display:block;line-height:1.4}
-.hdiv{display:flex;align-items:center;gap:1rem;margin:1.25rem auto;width:fit-content}
-.hdiv span{height:1px;width:45px;background:var(--pink);display:block;opacity:.5}
-.hdiv svg{fill:var(--pink);width:14px;height:14px}
-.hdate{font-family:'Cormorant Garamond',serif;font-size:1.2rem;letter-spacing:.12em;color:rgba(255,255,255,.85);margin-bottom:.25rem}
-.hhash{font-size:9px;letter-spacing:.22em;color:var(--gold-l);text-transform:uppercase;margin-bottom:2rem;opacity:.85}
-.cd{display:flex;gap:.85rem;justify-content:center;flex-wrap:wrap}
-.cdb{text-align:center;background:rgba(255,255,255,.08);border:1px solid rgba(232,180,192,.25);border-radius:12px;padding:.8rem 1rem;min-width:62px}
-.cdn{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:400;color:#fff;display:block;line-height:1}
-.cdl{font-size:7px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink);margin-top:3px;display:block}
-.fade-bottom{position:absolute;bottom:0;left:0;right:0;height:120px;background:linear-gradient(to bottom,transparent,var(--pink-ll));pointer-events:none;z-index:3}
-.strip{display:grid;grid-template-columns:1fr 1fr 1fr;height:420px;overflow:hidden;position:relative}
-.simg{width:100%;height:100%;object-fit:cover;display:block}
-.sc{background:var(--pink-ll);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;position:relative;overflow:hidden}
-.sc-fl{position:absolute;font-size:120px;opacity:.08;pointer-events:none;line-height:1}
-.sc-fl.tl{top:-20px;left:-20px;transform:rotate(-15deg)}
-.sc-fl.br{bottom:-20px;right:-20px;transform:rotate(15deg)}
-.sc p{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-style:italic;font-weight:600;color:var(--deep);line-height:1.5;position:relative;z-index:1}
-.sc small{font-size:9px;letter-spacing:.2em;color:var(--pink-d);margin-top:.75rem;display:block;position:relative;z-index:1}
-section{padding:5rem 2rem;position:relative}
-.si{max-width:760px;margin:0 auto}
-.sl{font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--pink-d);text-align:center;margin-bottom:.5rem}
-.st{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,2.8rem);font-weight:300;text-align:center;color:var(--deep);margin-bottom:.4rem}
-.divr{display:flex;align-items:center;gap:.65rem;justify-content:center;margin-bottom:2.5rem}
-.divr span{height:1px;width:36px;background:var(--pink-d);display:block;opacity:.4}
-.divr-dot{width:5px;height:5px;border-radius:50%;background:var(--pink-d)}
-.floral-bg{position:absolute;font-size:220px;opacity:.035;pointer-events:none;line-height:1;z-index:0}
-.floral-bg.tr{top:-30px;right:-30px;transform:rotate(20deg)}
-.floral-bg.bl{bottom:-30px;left:-30px;transform:rotate(-20deg)}
-.si,.stl,.eg,.vi,.rl{position:relative;z-index:1}
+body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);font-weight:300;margin:0;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 3rem;background:transparent;transition:background .4s}
+nav.scrolled{background:rgba(245,240,235,.96);backdrop-filter:blur(12px)}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-style:italic;color:var(--dark);letter-spacing:.05em}
+.nav-links{display:flex;gap:2.5rem}
+.nav-links a{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--pink)}
+#hero{height:100vh;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;position:relative}
+.hero-img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block}
+.hero-text{background:var(--bg);display:flex;flex-direction:column;justify-content:center;padding:5rem 4rem 4rem}
+.hero-eyebrow{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1.5rem}
+.hero-names{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,5.5vw,5.5rem);font-weight:300;line-height:1;color:var(--dark);margin-bottom:1.5rem}
+.hero-names em{font-style:italic;color:var(--pink)}
+.hero-names span{display:block;font-size:45%;color:var(--gold);font-style:normal;margin:.3em 0}
+.hero-date{font-family:'Cormorant Garamond',serif;font-size:1.1rem;letter-spacing:.12em;color:var(--mid);margin-bottom:.4rem}
+.hero-hash{font-size:9px;letter-spacing:.2em;color:var(--soft);text-transform:uppercase;margin-bottom:2.5rem}
+.cd{display:flex;gap:1.5rem}
+.cdb{text-align:center}
+.cdn{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:var(--dark);display:block;line-height:1}
+.cdl{font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin-top:2px;display:block}
+.cd-sep{font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:var(--pink-l);align-self:flex-start;padding-top:.35rem}
+.sec{padding:7rem 3rem}
+.sec-inner{max-width:1100px;margin:0 auto}
+.eyebrow{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1rem;display:block}
+.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.5rem);font-weight:300;line-height:1.15;color:var(--dark);margin-bottom:1rem}
+.sec-sub{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;color:var(--mid);line-height:1.9;max-width:520px}
+.thin-line{width:48px;height:1px;background:var(--gold);display:block;margin:2rem 0;opacity:.6}
 #story{background:var(--white)}
-.stl{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-.si2{border-radius:20px;overflow:hidden;height:420px}
-.si2 img{width:100%;height:100%;object-fit:cover;object-position:center top}
-.sq{font-size:3rem;line-height:.3;color:var(--pink);font-family:'Cormorant Garamond',serif;margin-bottom:.5rem;display:block}
-.stx{font-family:'Cormorant Garamond',serif;font-size:1.1rem;line-height:2;font-weight:300;font-style:italic;color:var(--mid)}
-.fade-divider{height:80px;background:linear-gradient(to bottom,var(--white),var(--cream))}
-.fade-divider2{height:80px;background:linear-gradient(to bottom,var(--cream),var(--white))}
-.fade-divider3{height:80px;background:linear-gradient(to bottom,var(--white),var(--pink-ll))}
-.fade-divider4{height:80px;background:linear-gradient(to bottom,var(--pink-ll),var(--white))}
-#events{background:var(--cream)}
-.eg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
-.ec{background:var(--white);border:1px solid rgba(232,180,192,.2);border-radius:20px;padding:2rem 1.25rem;text-align:center;position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s}
-.ec:hover{transform:translateY(-5px);box-shadow:0 12px 40px rgba(232,180,192,.2)}
-.etb{position:absolute;top:0;left:0;right:0;height:3px}
-.ep{background:linear-gradient(90deg,var(--pink),var(--pink-d))}
-.eg2{background:linear-gradient(90deg,var(--gold-l),var(--gold))}
-.eiw{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto .85rem;font-size:24px}
-.ir{background:rgba(232,180,192,.15)}.ig{background:rgba(201,169,110,.12)}
-.en{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--deep);margin-bottom:.15rem}
-.es{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
-.ed{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-bottom:.4rem}
-.et{font-size:.82rem;color:var(--mid);line-height:1.7}
-.quotebar{background:var(--deep);padding:4rem 2rem;text-align:center;position:relative;overflow:hidden}
-.quotebar-fl1{position:absolute;top:-20px;left:-20px;font-size:200px;opacity:.05;pointer-events:none;line-height:1;transform:rotate(-15deg)}
-.quotebar-fl2{position:absolute;bottom:-20px;right:-20px;font-size:200px;opacity:.05;pointer-events:none;line-height:1;transform:rotate(15deg)}
-.quotebar p{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2.2rem);font-style:italic;color:rgba(255,255,255,.88);max-width:640px;margin:0 auto;line-height:1.8;position:relative;z-index:1}
-.quotebar small{display:block;margin-top:1.25rem;font-size:9px;letter-spacing:.22em;color:var(--pink);text-transform:uppercase;opacity:.75;position:relative;z-index:1}
-#venue{background:var(--white)}
-.vi{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-.vc{background:var(--pink-ll);border:1px solid rgba(232,180,192,.25);border-radius:20px;padding:2.25rem}
-.vci{font-size:2rem;margin-bottom:.85rem;display:block}
-.vn{font-family:'Cormorant Garamond',serif;font-size:1.85rem;font-weight:400;color:var(--deep);margin-bottom:.65rem}
-.va{font-size:.88rem;color:var(--mid);line-height:2;margin-bottom:1.25rem}
-.vts{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.25rem}
-.vt{font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:.3rem .75rem;border-radius:100px;border:1px solid rgba(201,128,142,.25);color:var(--pink-d)}
-.vb{display:inline-block;padding:.7rem 1.85rem;background:var(--pink-d);color:#fff;border-radius:100px;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;transition:background .2s}
-.vb:hover{background:var(--deep)}
-.vp{border-radius:20px;overflow:hidden;height:420px}
-.vp img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
-#rsvp{background:var(--pink-ll)}
-.rl{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
-.ra-img{border-radius:20px;overflow:hidden;height:320px;margin-bottom:1.25rem}
-.ra-img img{width:100%;height:100%;object-fit:cover;object-position:center bottom}
-.rat{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-style:italic;color:var(--mid);line-height:1.9}
-.rf{background:var(--white);border:1px solid rgba(232,180,192,.25);border-radius:20px;padding:2rem}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+.story-img{border-radius:4px;overflow:hidden;height:560px}
+.story-img img{width:100%;height:100%;object-fit:cover;object-position:center top}
+#events{background:var(--bg)}
+.events-list{margin-top:3rem;border-top:1px solid rgba(90,74,58,.15)}
+.event-item{display:grid;grid-template-columns:48px 1fr 1fr auto;gap:2rem;align-items:center;padding:2rem 0;border-bottom:1px solid rgba(90,74,58,.15)}
+.event-num{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--pink-l);font-weight:300}
+.event-name{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--dark)}
+.event-sub{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:.25rem}
+.event-detail{font-size:.82rem;color:var(--mid);line-height:1.7}
+.event-emoji{font-size:1.75rem;opacity:.7}
+.quote-sec{background:var(--dark);padding:6rem 3rem;text-align:center}
+.quote-sec blockquote{font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,3vw,2.4rem);font-style:italic;color:rgba(255,255,255,.88);max-width:680px;margin:0 auto;line-height:1.75}
+.quote-sec cite{display:block;margin-top:1.5rem;font-size:9px;letter-spacing:.25em;color:var(--pink-l);text-transform:uppercase;font-style:normal;opacity:.7}
+#gallery{background:var(--white);padding:7rem 3rem}
+.gallery-eyebrow{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1rem;display:block;text-align:center}
+.gallery-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:300;color:var(--dark);text-align:center;margin-bottom:3.5rem}
+.gallery-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:280px 280px;gap:12px}
+.g-img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:3px;display:block}
+.g1{grid-row:1/3;height:100%}
+#venue{background:var(--bg)}
+.venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+.venue-img{border-radius:4px;overflow:hidden;height:480px}
+.venue-img img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.venue-name{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:var(--dark);margin-bottom:.75rem}
+.venue-addr{font-size:.88rem;color:var(--mid);line-height:2;margin-bottom:1.5rem}
+.venue-tags{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.75rem}
+.vtag{font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:.35rem .85rem;border:1px solid rgba(168,125,74,.35);color:var(--gold);border-radius:100px}
+.vbtn{display:inline-block;padding:.75rem 2rem;background:var(--dark);color:#fff;border-radius:100px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:background .2s}
+.vbtn:hover{background:var(--pink)}
+#rsvp{background:var(--white)}
+.rsvp-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+.rsvp-left p{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-style:italic;color:var(--mid);line-height:1.9;margin-bottom:2rem}
+.rsvp-img{border-radius:4px;overflow:hidden;height:320px;margin-top:2rem}
+.rsvp-img img{width:100%;height:100%;object-fit:cover;object-position:center center}
+.rf{background:var(--bg);border-radius:4px;padding:2.5rem}
 .fr{margin-bottom:1.1rem}
-.fr label{display:block;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-bottom:.4rem}
-.fr input,.fr select,.fr textarea{width:100%;padding:.65rem .9rem;border:1px solid rgba(232,180,192,.3);border-radius:10px;font-family:'Jost',sans-serif;font-size:.85rem;font-weight:300;color:var(--deep);background:var(--cream);outline:none;transition:border-color .2s}
-.fr input:focus,.fr select:focus,.fr textarea:focus{border-color:var(--pink-d)}
-.fr textarea{resize:vertical;min-height:72px}
-.sub{width:100%;padding:.85rem;background:var(--pink-d);color:#fff;border:none;border-radius:100px;font-family:'Jost',sans-serif;font-size:.82rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:background .2s}
-.sub:hover{background:var(--deep)}
-.rsc{text-align:center;padding:1.75rem;font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--pink-d);display:none}
-.err{font-size:.78rem;color:#c44;text-align:center;margin-top:.65rem;display:none}
-footer{text-align:center;padding:4rem 2rem;background:var(--deep);position:relative;overflow:hidden}
-.footer-fl1{position:absolute;top:-20px;left:-10px;font-size:160px;opacity:.05;pointer-events:none;line-height:1;transform:rotate(-15deg)}
-.footer-fl2{position:absolute;bottom:-20px;right:-10px;font-size:160px;opacity:.05;pointer-events:none;line-height:1;transform:rotate(15deg)}
-.fn{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:300;color:#fff;margin-bottom:.4rem;position:relative;z-index:1}
-.fn em{font-style:italic;color:var(--pink)}
-.fh{font-size:9px;letter-spacing:.22em;color:var(--pink);opacity:.55;margin-bottom:1.5rem;position:relative;z-index:1}
-.fi{display:flex;justify-content:center;gap:1.5rem;font-size:1.2rem;opacity:.2;margin-bottom:1.25rem;position:relative;z-index:1}
-.fc{font-size:10px;color:rgba(255,255,255,.18);letter-spacing:.05em;position:relative;z-index:1}
-@media(max-width:640px){
-  .stl,.vi,.rl{grid-template-columns:1fr}
-  .eg{grid-template-columns:1fr}
-  .strip{grid-template-columns:1fr 1fr;height:auto}
-  .simg:last-child{display:none}
-  nav{gap:1rem}
-  nav a{font-size:9px}
-  .hfl1,.hfl2,.hfl3,.hfl4{display:none}
+.fr label{display:block;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--soft);margin-bottom:.4rem}
+.fr input,.fr select,.fr textarea{width:100%;padding:.7rem 1rem;border:1px solid rgba(90,74,58,.2);border-radius:3px;font-family:'Jost',sans-serif;font-size:.85rem;font-weight:300;color:var(--dark);background:var(--white);outline:none;transition:border-color .2s}
+.fr input:focus,.fr select:focus,.fr textarea:focus{border-color:var(--pink)}
+.fr textarea{resize:vertical;min-height:80px}
+.sub{width:100%;padding:.9rem;background:var(--dark);color:#fff;border:none;border-radius:100px;font-family:'Jost',sans-serif;font-size:.8rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;transition:background .2s;margin-top:.5rem}
+.sub:hover{background:var(--pink)}
+.rsc{text-align:center;padding:2rem;font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--pink);display:none}
+.err{font-size:.78rem;color:#b44;text-align:center;margin-top:.65rem;display:none}
+footer{background:var(--dark);padding:5rem 3rem;text-align:center}
+.footer-names{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;margin-bottom:.5rem}
+.footer-names em{font-style:italic;color:var(--pink-l)}
+.footer-date{font-size:9px;letter-spacing:.25em;color:var(--pink-l);opacity:.5;margin-bottom:2rem;text-transform:uppercase}
+.footer-note{font-size:11px;color:rgba(255,255,255,.2);letter-spacing:.05em}
+@media(max-width:768px){
+  #hero{grid-template-columns:1fr;height:auto}
+  .hero-img{height:60vh}
+  .hero-text{padding:3rem 2rem}
+  .story-grid,.venue-grid,.rsvp-grid{grid-template-columns:1fr}
+  .event-item{grid-template-columns:36px 1fr;gap:1rem}
+  .event-detail,.event-emoji{display:none}
+  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .g1{grid-row:auto;height:220px}
+  .sec{padding:4rem 1.5rem}
+  nav{padding:1rem 1.5rem}
+  .nav-links{gap:1.25rem}
+  .nav-links a{font-size:9px}
 }
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto !important}}
 </style>
 </head>
 <body>
-<nav>
-  <a href="#hero">Home</a>
-  <a href="#story">Our Story</a>
-  <span class="nh">♡</span>
-  <a href="#events">Events</a>
-  <a href="#venue">Venue</a>
-  <a href="#rsvp">RSVP</a>
+<nav id="nav">
+  <div class="nav-logo">Shreya &amp; Ankit</div>
+  <div class="nav-links">
+    <a href="#story">Our Story</a>
+    <a href="#events">Events</a>
+    <a href="#venue">Venue</a>
+    <a href="#rsvp">RSVP</a>
+  </div>
 </nav>
 <section id="hero">
-  <div class="hbg"></div>
-  <div class="hov"></div>
-  <div class="hfl1">🌸</div>
-  <div class="hfl2">🌺</div>
-  <div class="hfl3">✿</div>
-  <div class="hfl4">✿</div>
-  <div class="hc">
-    <div class="gmb">✦ &nbsp; We Are Getting Married &nbsp; ✦</div>
-    <h1 class="hn"><em>Shreya</em><span class="amp">&amp;</span>Ankit</h1>
-    <div class="hdiv">
-      <span></span>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
-      <span></span>
-    </div>
-    <p class="hdate">25th November, 2026</p>
-    <p class="hhash">#AnkitkiShreRni</p>
+  <img class="hero-img" src="./images/hands.jpg" alt="Shreya and Ankit">
+  <div class="hero-text">
+    <span class="hero-eyebrow">25 · 11 · 2026 &nbsp;·&nbsp; Gwalior</span>
+    <h1 class="hero-names">
+      <em>Shreya</em>
+      <span>&amp;</span>
+      Ankit
+    </h1>
+    <p class="hero-date">25th November, 2026</p>
+    <p class="hero-hash">#AnkitkiShreRni</p>
     <div class="cd">
       <div class="cdb"><span class="cdn" id="cd-d">--</span><span class="cdl">Days</span></div>
+      <span class="cd-sep">·</span>
       <div class="cdb"><span class="cdn" id="cd-h">--</span><span class="cdl">Hours</span></div>
-      <div class="cdb"><span class="cdn" id="cd-m">--</span><span class="cdl">Minutes</span></div>
-      <div class="cdb"><span class="cdn" id="cd-s">--</span><span class="cdl">Seconds</span></div>
+      <span class="cd-sep">·</span>
+      <div class="cdb"><span class="cdn" id="cd-m">--</span><span class="cdl">Mins</span></div>
+      <span class="cd-sep">·</span>
+      <div class="cdb"><span class="cdn" id="cd-s">--</span><span class="cdl">Secs</span></div>
     </div>
   </div>
-  <div class="fade-bottom"></div>
 </section>
-<div class="strip">
-  <img class="simg" src="./images/engage.jpg" alt="Shreya and Ankit" style="object-position:center 15%">
-  <div class="sc">
-    <div class="sc-fl tl">🌸</div>
-    <div class="sc-fl br">🌺</div>
-    <p><em>Two hearts,<br>one forever</em></p>
-    <small>#AnkitkiShreRni</small>
-  </div>
-  <img class="simg" src="./images/strip1.jpg" alt="Shreya and Ankit" style="object-position:center bottom">
-</div>
-<div class="fade-divider"></div>
-<section id="story">
-  <div class="floral-bg tr">🌸</div>
-  <div class="floral-bg bl">🌺</div>
-  <div class="si">
-    <p class="sl">How it began</p>
-    <h2 class="st">Our Story</h2>
-    <div class="divr"><span></span><div class="divr-dot"></div><span></span></div>
-    <div class="stl">
-      <div class="si2"><img src="./images/story.jpg" alt="Shreya and Ankit" loading="lazy"></div>
+<section id="story" class="sec">
+  <div class="sec-inner">
+    <div class="story-grid">
+      <div class="story-img">
+        <img src="./images/engage.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 15%">
+      </div>
       <div>
-        <span class="sq">"</span>
-        <p class="stx">From long-distance calls to forever promises — our journey has been anything but ordinary. Through years of love, patience, and countless conversations across miles, we learned that the strongest relationships aren't the easiest ones; they're the ones worth choosing again and again.<br><br>We've grown together, supported each other through every high and low, and built a love rooted in friendship, trust, and endless laughter. Now, after all the miles and moments that shaped us, we're ready to begin our favourite chapter yet — forever."</p>
+        <span class="eyebrow">Our Story</span>
+        <h2 class="sec-title">From miles apart<br>to forever together</h2>
+        <span class="thin-line"></span>
+        <p class="sec-sub">From long-distance calls to forever promises — our journey has been anything but ordinary. Through years of love, patience, and countless conversations across miles, we learned that the strongest relationships aren't the easiest ones; they're the ones worth choosing again and again.<br><br>We've grown together, supported each other through every high and low, and built a love rooted in friendship, trust, and endless laughter. Now, we're ready to begin our favourite chapter yet — forever.</p>
       </div>
     </div>
   </div>
 </section>
-<div class="fade-divider"></div>
-<section id="events">
-  <div class="floral-bg tr">🌺</div>
-  <div class="si">
-    <p class="sl">Join us for</p>
-    <h2 class="st">The Celebrations</h2>
-    <div class="divr"><span></span><div class="divr-dot"></div><span></span></div>
-    <div class="eg">
-      <div class="ec">
-        <div class="etb ep"></div>
-        <div class="eiw ir">💍</div>
-        <div class="en">Ring &amp; Rhythm</div>
-        <div class="es">Sangeet &amp; Engagement</div>
-        <div class="ed">📅 Monday · 24 Nov 2026</div>
-        <div class="et">🕔 5:00 PM onwards<br><br>Music, dance &amp; the rings that seal it all</div>
-      </div>
-      <div class="ec">
-        <div class="etb eg2"></div>
-        <div class="eiw ig">🌼</div>
-        <div class="en">Turmeric Tales</div>
-        <div class="es">Haldi Ceremony</div>
-        <div class="ed">📅 Tuesday · 25 Nov 2026</div>
-        <div class="et">🕘 9:00 AM onwards<br><br>Golden blessings &amp; the glow that follows</div>
-      </div>
-      <div class="ec">
-        <div class="etb ep"></div>
-        <div class="eiw ir">✨</div>
-        <div class="en">The Eternal Vow</div>
-        <div class="es">Wedding &amp; Reception</div>
-        <div class="ed">📅 Tuesday · 25 Nov 2026</div>
-        <div class="et">🕔 5:00 PM onwards<br><br>Where forever officially begins</div>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="fade-divider2"></div>
-<div class="quotebar">
-  <div class="quotebar-fl1">🌸</div>
-  <div class="quotebar-fl2">🌺</div>
-  <p>"After all this time, choosing you is still the easiest thing I do."</p>
-  <small>#AnkitkiShreRni · 25 · 11 · 2026</small>
-</div>
-<div class="fade-divider3"></div>
-<section id="venue">
-  <div class="floral-bg bl">🌸</div>
-  <div class="si">
-    <p class="sl">Where to find us</p>
-    <h2 class="st">The Venue</h2>
-    <div class="divr"><span></span><div class="divr-dot"></div><span></span></div>
-    <div class="vi">
-      <div class="vc">
-        <span class="vci">🏛️</span>
-        <div class="vn">Mannat Palace</div>
-        <address class="va" style="font-style:normal">📍 New City Centre, Sirol Main Rd<br>Dongarpur, Gwalior<br>Madhya Pradesh — 474006</address>
-        <div class="vts">
-          <span class="vt">✈️ Airport · 18 km</span>
-          <span class="vt">🚉 Railway · 10 km</span>
+<section id="events" class="sec">
+  <div class="sec-inner">
+    <span class="eyebrow">Join us for</span>
+    <h2 class="sec-title">The Celebrations</h2>
+    <div class="events-list">
+      <div class="event-item">
+        <div class="event-num">01</div>
+        <div>
+          <div class="event-name">Ring &amp; Rhythm</div>
+          <div class="event-sub">Sangeet &amp; Engagement</div>
         </div>
-        <a class="vb" href="https://maps.google.com/?q=Mannat+Palace+Sirol+Dongarpur+Gwalior" target="_blank" rel="noopener noreferrer">📍 Get Directions</a>
+        <div class="event-detail">Monday, 24 November 2026<br>5:00 PM onwards<br>Music, dance &amp; the rings that seal it all</div>
+        <div class="event-emoji">💍</div>
       </div>
-      <div class="vp"><img src="./images/strip2.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 30%"></div>
+      <div class="event-item">
+        <div class="event-num">02</div>
+        <div>
+          <div class="event-name">Turmeric Tales</div>
+          <div class="event-sub">Haldi Ceremony</div>
+        </div>
+        <div class="event-detail">Tuesday, 25 November 2026<br>9:00 AM onwards<br>Golden blessings &amp; the glow that follows</div>
+        <div class="event-emoji">🌼</div>
+      </div>
+      <div class="event-item">
+        <div class="event-num">03</div>
+        <div>
+          <div class="event-name">The Eternal Vow</div>
+          <div class="event-sub">Wedding &amp; Reception</div>
+        </div>
+        <div class="event-detail">Tuesday, 25 November 2026<br>5:00 PM onwards<br>Where forever officially begins</div>
+        <div class="event-emoji">✨</div>
+      </div>
     </div>
   </div>
 </section>
-<div class="fade-divider4"></div>
-<section id="rsvp">
-  <div class="floral-bg tr">🌺</div>
-  <div class="si">
-    <p class="sl">Let us know</p>
-    <h2 class="st">RSVP</h2>
-    <div class="divr"><span></span><div class="divr-dot"></div><span></span></div>
-    <div class="rl">
+<div class="quote-sec">
+  <blockquote>"After all this time, choosing you is still the easiest thing I do."</blockquote>
+  <cite>#AnkitkiShreRni &nbsp;·&nbsp; 25 · 11 · 2026</cite>
+</div>
+<section id="gallery">
+  <div class="sec-inner">
+    <span class="gallery-eyebrow">A glimpse of us</span>
+    <h2 class="gallery-title">Moments that brought us here</h2>
+    <div class="gallery-grid">
+      <img class="g-img g1" src="./images/story.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center top">
+      <img class="g-img" src="./images/strip1.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center bottom;height:280px">
+      <img class="g-img" src="./images/night.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 40%;height:280px">
+      <img class="g-img" src="./images/strip2.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 20%;height:280px">
+      <img class="g-img" src="./images/hero.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center bottom;height:280px">
+    </div>
+  </div>
+</section>
+<section id="venue" class="sec">
+  <div class="sec-inner">
+    <div class="venue-grid">
       <div>
-        <div class="ra-img"><img src="./images/hero.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center bottom"></div>
-        <p class="rat">"We would be incomplete without you there. Your presence is our biggest gift — come celebrate love with us. ♡"</p>
+        <span class="eyebrow">Where to find us</span>
+        <span class="thin-line"></span>
+        <div class="venue-name">Mannat Palace</div>
+        <div class="venue-addr">New City Centre, Sirol Main Rd<br>Dongarpur, Gwalior<br>Madhya Pradesh — 474006</div>
+        <div class="venue-tags">
+          <span class="vtag">✈️ Airport · 18 km</span>
+          <span class="vtag">🚉 Railway · 10 km</span>
+        </div>
+        <a class="vbtn" href="https://maps.google.com/?q=Mannat+Palace+Sirol+Dongarpur+Gwalior" target="_blank" rel="noopener noreferrer">Get Directions →</a>
+      </div>
+      <div class="venue-img">
+        <img src="./images/strip2.jpg" alt="Venue" loading="lazy" style="object-position:center 25%">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="rsvp" class="sec">
+  <div class="sec-inner">
+    <div class="rsvp-grid">
+      <div class="rsvp-left">
+        <span class="eyebrow">Let us know</span>
+        <h2 class="sec-title">Will you<br>join us?</h2>
+        <span class="thin-line"></span>
+        <p>"We would be incomplete without you there. Your presence is our biggest gift — come celebrate love with us. ♡"</p>
+        <div class="rsvp-img">
+          <img src="./images/engage.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 15%">
+        </div>
       </div>
       <div class="rf" id="rsvp-form-wrap">
-        <div class="fr"><label for="r-name">👤 Your Name</label><input type="text" id="r-name" placeholder="Full name" autocomplete="name"></div>
-        <div class="fr"><label for="r-phone">📱 Phone / WhatsApp</label><input type="tel" id="r-phone" placeholder="+91 00000 00000" autocomplete="tel"></div>
+        <div class="fr"><label for="r-name">Your Name</label><input type="text" id="r-name" placeholder="Full name" autocomplete="name"></div>
+        <div class="fr"><label for="r-phone">Phone / WhatsApp</label><input type="tel" id="r-phone" placeholder="+91 00000 00000" autocomplete="tel"></div>
         <div class="fr">
-          <label for="r-att">🎉 I'll be attending</label>
+          <label for="r-att">I'll be attending</label>
           <select id="r-att">
             <option value="">Please select</option>
             <option value="all">All events — I wouldn't miss it!</option>
@@ -293,9 +264,9 @@ footer{text-align:center;padding:4rem 2rem;background:var(--deep);position:relat
             <option value="afar">Sending love from afar ♡</option>
           </select>
         </div>
-        <div class="fr"><label for="r-guests">👥 Number of guests</label><input type="number" id="r-guests" placeholder="1" min="1" max="10" autocomplete="off"></div>
-        <div class="fr"><label for="r-note">💌 A little note</label><textarea id="r-note" placeholder="Write a wish or message..."></textarea></div>
-        <button class="sub" id="r-btn" onclick="sendRSVP()">💌 Send my RSVP</button>
+        <div class="fr"><label for="r-guests">Number of guests</label><input type="number" id="r-guests" placeholder="1" min="1" max="10" autocomplete="off"></div>
+        <div class="fr"><label for="r-note">A little note</label><textarea id="r-note" placeholder="Write a wish or message..."></textarea></div>
+        <button class="sub" id="r-btn" onclick="sendRSVP()">Send my RSVP</button>
         <div class="err" id="r-err" role="alert">Please fill in your name and attendance choice.</div>
         <div class="rsc" id="r-ok" role="status">
           <p>Thank you! We can't wait to celebrate with you ♡</p>
@@ -306,14 +277,14 @@ footer{text-align:center;padding:4rem 2rem;background:var(--deep);position:relat
   </div>
 </section>
 <footer>
-  <div class="footer-fl1">🌸</div>
-  <div class="footer-fl2">🌺</div>
-  <p class="fn"><em>Shreya</em> &amp; Ankit</p>
-  <p class="fh">#AnkitkiShreRni · 25 · 11 · 2026</p>
-  <div class="fi" aria-hidden="true"><span>💍</span><span>🌸</span><span>✨</span><span>🌼</span><span>♡</span></div>
-  <p class="fc">Mannat Palace, Gwalior · With love &amp; joy</p>
+  <div class="footer-names"><em>Shreya</em> &amp; Ankit</div>
+  <div class="footer-date">#AnkitkiShreRni &nbsp;·&nbsp; 25 · 11 · 2026</div>
+  <div class="footer-note">Mannat Palace, Gwalior &nbsp;·&nbsp; With love &amp; joy</div>
 </footer>
 <script>
+window.addEventListener('scroll',function(){
+  document.getElementById('nav').classList.toggle('scrolled',window.scrollY>60);
+});
 function tick(){
   var t=new Date('2026-11-25T17:00:00+05:30')-new Date();
   if(t<=0){['d','h','m','s'].forEach(function(x){document.getElementById('cd-'+x).textContent='0'});return}
@@ -335,7 +306,7 @@ function sendRSVP(){
   if(!FORMSPREE_ID||FORMSPREE_ID==='YOUR_FORM_ID'){showSuccess();return}
   fetch('https://formspree.io/f/'+FORMSPREE_ID,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({name:name,phone:document.getElementById('r-phone').value,attending:att,guests:document.getElementById('r-guests').value,note:document.getElementById('r-note').value})})
   .then(function(r){if(r.ok){showSuccess()}else{throw new Error()}})
-  .catch(function(){btn.disabled=false;btn.textContent='💌 Send my RSVP';errEl.textContent='Something went wrong — please try again.';errEl.style.display='block'});
+  .catch(function(){btn.disabled=false;btn.textContent='Send my RSVP';errEl.textContent='Something went wrong — please try again.';errEl.style.display='block'});
 }
 function showSuccess(){
   var w=document.getElementById('rsvp-form-wrap');
