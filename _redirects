@@ -1,0 +1,6 @@
+# Redirect bare domain to index (Cloudflare handles this automatically,
+# but keeping here as documentation)
+# /  /index.html  200
+
+# Catch-all 404 → back to homepage
+/*  /index.html  404
