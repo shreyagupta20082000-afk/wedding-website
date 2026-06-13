@@ -58,8 +58,8 @@ nav a:hover{color:var(--gold)}
 .cdl{font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin-top:3px;display:block;opacity:.75}
 
 /* ── PHOTO STRIP ── */
-.strip{display:grid;grid-template-columns:1fr 1fr 1fr;height:280px;overflow:hidden}
-.strip-img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.strip{display:grid;grid-template-columns:1fr 1fr 1fr;height:380px;overflow:hidden}
+.strip-img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
 .sc{background:var(--deep);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem;text-align:center}
 .sc p{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-style:italic;color:var(--gold-l);line-height:1.6}
 .sc small{font-size:9px;letter-spacing:.2em;color:var(--rose-l);margin-top:.6rem;display:block;opacity:.65}
@@ -97,7 +97,7 @@ section{padding:4rem 2rem}
 .et{font-size:.8rem;color:var(--tm);line-height:1.6}
 
 /* ── GALLERY STRIP ── */
-.gs{display:grid;grid-template-columns:2fr 1fr 1fr;height:320px;background:var(--deep)}
+.gs{display:grid;grid-template-columns:2fr 1fr 1fr;height:320px;background:var(--deep);overflow:hidden;position:relative;z-index:0}
 .gs img{width:100%;height:100%;object-fit:cover;display:block}
 .gt{background:var(--rose-d);display:flex;align-items:center;justify-content:center;text-align:center;padding:1.25rem}
 .gt p{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-style:italic;color:#fff;line-height:1.5}
@@ -257,8 +257,8 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
 
 <!-- GALLERY STRIP -->
 <div class="gs" role="img" aria-label="Wedding photo gallery">
-  <img src="./images/hero.jpg" alt="Ankit and Shreya" style="object-position:center top" loading="lazy">
-  <img src="./images/night.jpg" alt="Together at night" loading="lazy">
+  <img src="./images/strip1.jpg" alt="Ankit and Shreya" style="object-position:center 30%" loading="lazy">
+  <img src="./images/strip2.jpg" alt="Together" style="object-position:center 20%" loading="lazy">
   <div class="gt"><p>"Relationship status:<br>permanently loading ∞"</p></div>
 </div>
 
@@ -281,7 +281,7 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
         </div>
         <a class="vb" href="https://maps.google.com/?q=Mannat+Palace+Sirol+Dongarpur+Gwalior" target="_blank" rel="noopener noreferrer">📍 Get Directions</a>
       </div>
-      <div class="vp"><img src="./images/night.jpg" alt="Couple" style="object-position:center top" loading="lazy"></div>
+      <div class="vp"><img src="./images/story.jpg" alt="Couple" style="object-position:center 20%" loading="lazy"></div>
     </div>
   </div>
 </section>
