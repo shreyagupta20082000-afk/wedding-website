@@ -23,14 +23,10 @@
 }
 html{scroll-behavior:smooth}
 body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--deep);font-weight:300;margin:0}
-
-/* NAV */
 nav{position:sticky;top:0;z-index:100;display:flex;justify-content:center;align-items:center;gap:2rem;padding:.9rem 2rem;background:rgba(44,31,31,.75);border-bottom:1px solid rgba(232,196,196,.15);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
 nav a{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.78);text-decoration:none;transition:color .2s}
 nav a:hover{color:var(--blush-l)}
 .nh{color:var(--blush)}
-
-/* HERO */
 #hero{min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:5rem 2rem 4rem;position:relative;overflow:hidden;background:#2c1f1f}
 .hbg{position:absolute;inset:0;background-size:cover;background-position:center 78%;opacity:.9;background-image:url('./images/hero.jpg')}
 .hov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(44,31,31,.52) 0%,rgba(44,31,31,.38) 40%,rgba(44,31,31,.85) 100%)}
@@ -49,15 +45,11 @@ nav a:hover{color:var(--blush-l)}
 .cdb{text-align:center;background:rgba(255,255,255,.1);border:1px solid rgba(232,196,196,.3);border-radius:12px;padding:.85rem 1.1rem;min-width:64px}
 .cdn{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:400;color:#fff;display:block;line-height:1}
 .cdl{font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:var(--blush-l);margin-top:3px;display:block;opacity:.8}
-
-/* PHOTO STRIP */
 .strip{display:grid;grid-template-columns:1fr 1fr 1fr;height:360px;overflow:hidden}
 .strip-img{width:100%;height:100%;object-fit:cover;display:block}
 .sc{background:var(--deep);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem;text-align:center}
 .sc p{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:#fff;line-height:1.6;font-weight:300}
 .sc small{font-size:9px;letter-spacing:.2em;color:var(--blush);margin-top:.6rem;display:block;opacity:.7}
-
-/* SECTIONS */
 section{padding:4rem 2rem}
 .si{max-width:760px;margin:0 auto}
 .sl{font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--blush-d);text-align:center;margin-bottom:.5rem}
@@ -65,16 +57,12 @@ section{padding:4rem 2rem}
 .sd{display:flex;align-items:center;gap:.65rem;justify-content:center;margin-bottom:2.5rem}
 .sd span{height:1px;width:36px;background:var(--dust);display:block;opacity:.5}
 .sdd{width:5px;height:5px;border-radius:50%;background:var(--blush-d)}
-
-/* STORY */
 #story{background:var(--white)}
 .stl{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center}
 .si2{border-radius:14px;overflow:hidden;height:380px}
 .si2 img{width:100%;height:100%;object-fit:cover;object-position:center top}
 .sq{font-size:2.5rem;line-height:.4;color:var(--blush);font-family:'Cormorant Garamond',serif;margin-bottom:.4rem;display:block}
 .stx{font-family:'Cormorant Garamond',serif;font-size:1.1rem;line-height:1.9;font-weight:300;font-style:italic;color:var(--mid)}
-
-/* EVENTS */
 #events{background:var(--cream)}
 .eg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
 .ec{background:var(--white);border:1px solid rgba(168,191,168,.25);border-radius:18px;padding:2rem 1.25rem;text-align:center;position:relative;overflow:hidden;transition:transform .2s}
@@ -88,13 +76,9 @@ section{padding:4rem 2rem}
 .es{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--sage-d);margin-bottom:.6rem}
 .ed{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-bottom:.4rem}
 .et{font-size:.8rem;color:var(--mid);line-height:1.6}
-
-/* GALLERY STRIP */
 .gs{display:grid;grid-template-columns:2fr 1fr 1fr;height:260px;overflow:hidden}
 .gt{background:var(--deep);display:flex;align-items:center;justify-content:center;text-align:center;padding:1.5rem;flex-direction:column;gap:.75rem}
 .gt p{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-style:italic;color:#fff;line-height:1.6}
-
-/* VENUE */
 #venue{background:var(--white)}
 .vi{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center}
 .vc{background:var(--cream);border:1px solid rgba(168,191,168,.3);border-radius:18px;padding:2rem}
@@ -107,8 +91,6 @@ section{padding:4rem 2rem}
 .vb:hover{background:var(--deep)}
 .vp{border-radius:18px;overflow:hidden;height:320px}
 .vp img{width:100%;height:100%;object-fit:cover}
-
-/* RSVP */
 #rsvp{background:var(--blush-l)}
 .rl{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start}
 .ra-img{border-radius:18px;overflow:hidden;height:250px;margin-bottom:1.25rem}
@@ -124,8 +106,6 @@ section{padding:4rem 2rem}
 .sub:hover{background:var(--deep)}
 .rsc{text-align:center;padding:1.75rem;font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--blush-d);display:none}
 .err{font-size:.78rem;color:#c44;text-align:center;margin-top:.65rem;display:none}
-
-/* FOOTER */
 footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
 .fn{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:#fff;margin-bottom:.4rem}
 .fn em{font-style:italic;color:var(--blush)}
@@ -133,7 +113,6 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
 .fi{display:flex;justify-content:center;gap:1.25rem;font-size:1.1rem;opacity:.3;margin-bottom:1.25rem}
 .fc{font-size:10px;color:rgba(255,255,255,.22);letter-spacing:.05em}
 .br2{width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(168,191,168,.25),transparent)}
-
 @media(max-width:580px){
   .stl,.vi,.rl,.eg{grid-template-columns:1fr}
   .strip{grid-template-columns:1fr 1fr;height:auto}
@@ -149,7 +128,6 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
 </style>
 </head>
 <body>
-
 <nav>
   <a href="#hero">Home</a>
   <a href="#story">Our Story</a>
@@ -158,7 +136,6 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
   <a href="#venue">Venue</a>
   <a href="#rsvp">RSVP</a>
 </nav>
-
 <section id="hero">
   <div class="hbg"></div>
   <div class="hov"></div>
@@ -172,7 +149,7 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
     </div>
     <p class="hdate">25th November, 2026</p>
     <p class="hhash">#AnkitkiShreRni</p>
-    <div class="cd" role="timer" aria-label="Countdown to wedding">
+    <div class="cd" role="timer">
       <div class="cdb"><span class="cdn" id="cd-d">--</span><span class="cdl">Days</span></div>
       <div class="cdb"><span class="cdn" id="cd-h">--</span><span class="cdl">Hours</span></div>
       <div class="cdb"><span class="cdn" id="cd-m">--</span><span class="cdl">Minutes</span></div>
@@ -180,33 +157,26 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
     </div>
   </div>
 </section>
-
-<div class="strip" role="img" aria-label="Shreya and Ankit photos">
+<div class="strip">
   <img class="strip-img" src="./images/strip1.jpg" alt="Shreya and Ankit" style="object-position:center 20%">
-  <div class="sc">
-    <p>Two hearts,<br>one forever</p>
-    <small>#AnkitkiShreRni</small>
-  </div>
+  <div class="sc"><p>Two hearts,<br>one forever</p><small>#AnkitkiShreRni</small></div>
   <img class="strip-img" src="./images/strip2.jpg" alt="Together" style="object-position:center 25%">
 </div>
-
-<section id="story" style="background:#fff">
+<section id="story">
   <div class="si">
     <p class="sl">How it began</p>
     <h2 class="st">Our Story</h2>
     <div class="sd"><span></span><div class="sdd"></div><span></span></div>
     <div class="stl">
-      <div class="si2"><img src="./images/story.jpg" alt="Shreya and Ankit together" loading="lazy"></div>
+      <div class="si2"><img src="./images/story.jpg" alt="Shreya and Ankit" loading="lazy"></div>
       <div>
-        <span class="sq" aria-hidden="true">"</span>
+        <span class="sq">"</span>
         <p class="stx">From long-distance calls to forever promises — our journey has been anything but ordinary. Through years of love, patience, and countless conversations across miles, we learned that the strongest relationships aren't the easiest ones; they're the ones worth choosing again and again.<br><br>We've grown together, supported each other through every high and low, and built a love rooted in friendship, trust, and endless laughter. Now, after all the miles and moments that shaped us, we're ready to begin our favourite chapter yet — forever."</p>
       </div>
     </div>
   </div>
 </section>
-
 <div class="br2"></div>
-
 <section id="events">
   <div class="si">
     <p class="sl">Join us for</p>
@@ -240,22 +210,19 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
     </div>
   </div>
 </section>
-
 <div class="gs">
   <div class="gt" style="background:linear-gradient(135deg,#2c1f1f 0%,#3d2a2a 100%)">
-    <p style="font-size:3.5rem;font-weight:300;color:rgba(232,196,196,.18);line-height:1;margin:0">forever</p>
-    <p style="font-size:1.05rem">"Two souls,<br>one journey ♡"</p>
+    <p style="font-size:3.5rem;font-weight:300;color:rgba(232,196,196,.15);line-height:1;margin:0;font-family:'Cormorant Garamond',serif;font-style:italic">forever</p>
+    <p>"Two souls,<br>one journey ♡"</p>
   </div>
   <div class="gt" style="background:#3d2a2a">
-    <p style="color:var(--blush-l);font-size:1.05rem">24 · 25<br>November<br>2026</p>
+    <p style="color:var(--blush-l)">24 · 25<br>November<br>2026</p>
   </div>
   <div class="gt" style="background:var(--blush-d)">
-    <p style="font-size:1rem">"Relationship status:<br>permanently loading ∞"</p>
+    <p>"Relationship status:<br>permanently loading ∞"</p>
   </div>
 </div>
-
 <div class="br2"></div>
-
 <section id="venue">
   <div class="si">
     <p class="sl">Where to find us</p>
@@ -276,9 +243,7 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
     </div>
   </div>
 </section>
-
 <div class="br2"></div>
-
 <section id="rsvp">
   <div class="si">
     <p class="sl">Let us know</p>
@@ -315,14 +280,12 @@ footer{text-align:center;padding:3.5rem 2rem;background:var(--deep)}
     </div>
   </div>
 </section>
-
 <footer>
   <p class="fn"><em>Shreya</em> &amp; Ankit</p>
   <p class="fh">#AnkitkiShreRni · 25 · 11 · 2026</p>
   <div class="fi" aria-hidden="true"><span>💍</span><span>🌸</span><span>✨</span><span>🌼</span><span>♡</span></div>
   <p class="fc">Mannat Palace, Gwalior · With love &amp; joy</p>
 </footer>
-
 <script>
 function tick(){
   var t=new Date('2026-11-25T17:00:00+05:30')-new Date();
@@ -333,7 +296,6 @@ function tick(){
   document.getElementById('cd-s').textContent=Math.floor(t%60000/1000);
 }
 tick();setInterval(tick,1000);
-
 var FORMSPREE_ID='YOUR_FORM_ID';
 function sendRSVP(){
   var name=document.getElementById('r-name').value.trim();
