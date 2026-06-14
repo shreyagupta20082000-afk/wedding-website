@@ -30,94 +30,92 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
 nav.scrolled{background:rgba(245,240,235,.96);backdrop-filter:blur(12px)}
 .nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-style:italic;color:var(--dark);letter-spacing:.05em}
 .nav-links{display:flex;gap:2.5rem}
-.nav-links a{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);text-decoration:none;transition:color .2s;font-weight:400}
+.nav-links a{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);text-decoration:none;transition:color .2s}
 .nav-links a:hover{color:var(--pink)}
 #hero{height:100vh;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;position:relative}
 .hero-img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block}
 .hero-text{background:var(--bg);display:flex;flex-direction:column;justify-content:center;padding:5rem 4rem 4rem}
-.hero-eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:2rem;font-weight:500}
-.hero-names{font-family:'Cormorant Garamond',serif;font-size:clamp(3.5rem,6vw,6.5rem);font-weight:300;line-height:1.1;color:var(--dark);margin-bottom:2rem}
+.hero-eyebrow{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1.5rem}
+.hero-names{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,5.5vw,5.5rem);font-weight:300;line-height:1;color:var(--dark);margin-bottom:1.5rem}
 .hero-names em{font-style:italic;color:var(--pink)}
-.hero-names span{display:block;font-size:45%;color:var(--gold);font-style:normal;margin:.25em 0}
-.hero-date{font-family:'Cormorant Garamond',serif;font-size:1.3rem;letter-spacing:.12em;color:var(--mid);margin-bottom:.8rem;font-weight:400}
-.hero-hash{font-size:11px;letter-spacing:.2em;color:var(--soft);text-transform:uppercase;margin-bottom:3rem;font-weight:500}
-.cd{display:flex;gap:2.5rem;align-items:center;margin-top:2rem}
+.hero-names span{display:block;font-size:45%;color:var(--gold);font-style:normal;margin:.3em 0}
+.hero-date{font-family:'Cormorant Garamond',serif;font-size:1.1rem;letter-spacing:.12em;color:var(--mid);margin-bottom:.4rem}
+.hero-hash{font-size:9px;letter-spacing:.2em;color:var(--soft);text-transform:uppercase;margin-bottom:2.5rem}
+.cd{display:flex;gap:1.5rem}
 .cdb{text-align:center}
-.cdn{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--dark);display:block;line-height:1;border:2px solid var(--gold);padding:1rem 1.5rem;border-radius:8px;min-width:100px}
-.cdl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin-top:.6rem;display:block;font-weight:500}
-.cd-sep{font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--pink);align-self:flex-start;padding-top:.5rem}
-.sec{padding:8rem 3rem}
-.sec-inner{max-width:1200px;margin:0 auto}
-.eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1.5rem;display:block;font-weight:500}
-.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,5vw,4.2rem);font-weight:300;line-height:1.2;color:var(--dark);margin-bottom:1.5rem}
-.sec-sub{font-family:'Jost',sans-serif;font-size:1.05rem;color:var(--mid);line-height:2;max-width:580px;font-weight:300}
-.thin-line{width:60px;height:2px;background:var(--gold);display:block;margin:2.5rem 0;opacity:.7}
+.cdn{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:var(--dark);display:block;line-height:1}
+.cdl{font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin-top:2px;display:block}
+.cd-sep{font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:var(--pink-l);align-self:flex-start;padding-top:.35rem}
+.sec{padding:7rem 3rem}
+.sec-inner{max-width:1100px;margin:0 auto}
+.eyebrow{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1rem;display:block}
+.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.5rem);font-weight:300;line-height:1.15;color:var(--dark);margin-bottom:1rem}
+.sec-sub{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;color:var(--mid);line-height:1.9;max-width:520px}
+.thin-line{width:48px;height:1px;background:var(--gold);display:block;margin:2rem 0;opacity:.6}
 #story{background:var(--white)}
-.story-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:6rem;align-items:center}
-.story-img{border-radius:6px;overflow:hidden;height:600px}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+.story-img{border-radius:4px;overflow:hidden;height:560px}
 .story-img img{width:100%;height:100%;object-fit:cover;object-position:center top}
 #events{background:var(--bg)}
-.events-list{margin-top:3rem;display:grid;gap:2.5rem}
-.event-item{background:var(--white);padding:2.5rem;border-radius:8px;border-left:4px solid var(--pink);display:grid;grid-template-columns:60px 1fr auto;gap:2.5rem;align-items:start}
-.event-num{font-family:'Cormorant Garamond',serif;font-size:2.2rem;color:var(--pink);font-weight:300}
-.event-name{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:400;color:var(--dark);margin-bottom:.8rem}
-.event-sub{font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;color:var(--pink);margin-bottom:1.2rem;font-weight:500}
-.event-detail{font-size:.95rem;color:var(--mid);line-height:1.9;font-weight:300}
-.event-emoji{font-size:2.5rem;opacity:1}
-.quote-sec{background:var(--dark);padding:8rem 3rem;text-align:center}
-.quote-sec blockquote{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-style:italic;color:rgba(255,255,255,.92);max-width:750px;margin:0 auto;line-height:1.8;font-weight:300}
-.quote-sec cite{display:block;margin-top:2rem;font-size:11px;letter-spacing:.25em;color:var(--pink-l);text-transform:uppercase;font-style:normal;opacity:.75;font-weight:500}
-#gallery{background:var(--white);padding:8rem 3rem}
-.gallery-eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1.5rem;display:block;text-align:center;font-weight:500}
-.gallery-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,4vw,3.8rem);font-weight:300;color:var(--dark);text-align:center;margin-bottom:4rem}
-.gallery-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:300px 300px;gap:14px}
-.g-img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:4px;display:block}
-.g1{grid-row:1/3;height:100%}
+.events-list{margin-top:3rem;border-top:1px solid rgba(90,74,58,.15)}
+.event-item{display:grid;grid-template-columns:48px 1fr 1fr auto;gap:2rem;align-items:center;padding:2rem 0;border-bottom:1px solid rgba(90,74,58,.15)}
+.event-num{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--pink-l);font-weight:300}
+.event-name{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--dark)}
+.event-sub{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:.25rem}
+.event-detail{font-size:.82rem;color:var(--mid);line-height:1.7}
+.event-emoji{font-size:1.75rem;opacity:.7}
+.quote-sec{background:var(--dark);padding:6rem 3rem;text-align:center}
+.quote-sec blockquote{font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,3vw,2.4rem);font-style:italic;color:rgba(255,255,255,.88);max-width:680px;margin:0 auto;line-height:1.75}
+.quote-sec cite{display:block;margin-top:1.5rem;font-size:9px;letter-spacing:.25em;color:var(--pink-l);text-transform:uppercase;font-style:normal;opacity:.7}
+#gallery{background:var(--white);padding:7rem 3rem}
+.gallery-eyebrow{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--pink);margin-bottom:1rem;display:block;text-align:center}
+.gallery-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:300;color:var(--dark);text-align:center;margin-bottom:3.5rem}
+.gallery-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+.g-img{width:100%;height:auto;border-radius:3px;display:block}
+.g1{grid-column:1;grid-row:1/3}
 #venue{background:var(--bg)}
-.venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center}
-.venue-img{border-radius:6px;overflow:hidden;height:520px}
-.venue-img img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
-.venue-name{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;color:var(--dark);margin-bottom:1.2rem}
-.venue-addr{font-size:.98rem;color:var(--mid);line-height:2.2;margin-bottom:2rem;font-weight:300}
-.venue-tags{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:2rem}
-.vtag{font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:.5rem 1.2rem;border:1.5px solid var(--gold);color:var(--gold);border-radius:100px;font-weight:500}
-.vbtn{display:inline-block;padding:.9rem 2.5rem;background:var(--dark);color:#fff;border-radius:100px;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:background .2s;font-weight:500}
+.venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+.venue-img{border-radius:4px;overflow:hidden}
+.venue-img img{width:100%;height:auto;display:block}
+.venue-name{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:var(--dark);margin-bottom:.75rem}
+.venue-addr{font-size:.88rem;color:var(--mid);line-height:2;margin-bottom:1.5rem}
+.venue-tags{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.75rem}
+.vtag{font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:.35rem .85rem;border:1px solid rgba(168,125,74,.35);color:var(--gold);border-radius:100px}
+.vbtn{display:inline-block;padding:.75rem 2rem;background:var(--dark);color:#fff;border-radius:100px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:background .2s}
 .vbtn:hover{background:var(--pink)}
 #rsvp{background:var(--white)}
 .rsvp-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
-.rsvp-left p{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--mid);line-height:2;margin-bottom:2.5rem;font-weight:300}
-.rsvp-img{border-radius:6px;overflow:hidden;height:360px;margin-top:2rem}
-.rsvp-img img{width:100%;height:100%;object-fit:cover;object-position:center center}
-.rf{background:var(--bg);border-radius:8px;padding:3rem}
-.fr{margin-bottom:1.5rem}
-.fr label{display:block;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--soft);margin-bottom:.6rem;font-weight:500}
-.fr input,.fr select,.fr textarea{width:100%;padding:.85rem 1.2rem;border:1.5px solid rgba(90,74,58,.25);border-radius:4px;font-family:'Jost',sans-serif;font-size:.95rem;font-weight:300;color:var(--dark);background:var(--white);outline:none;transition:border-color .2s}
-.fr input:focus,.fr select:focus,.fr textarea:focus{border-color:var(--pink);box-shadow:0 0 0 3px rgba(201,128,142,.1)}
-.fr textarea{resize:vertical;min-height:100px}
-.sub{width:100%;padding:1rem;background:var(--dark);color:#fff;border:none;border-radius:100px;font-family:'Jost',sans-serif;font-size:.85rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;transition:background .2s;margin-top:.8rem}
+.rsvp-left p{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-style:italic;color:var(--mid);line-height:1.9;margin-bottom:2rem}
+.rsvp-img{border-radius:4px;overflow:hidden;margin-top:2rem}
+.rsvp-img img{width:100%;height:auto;display:block}
+.rf{background:var(--bg);border-radius:4px;padding:2.5rem}
+.fr{margin-bottom:1.1rem}
+.fr label{display:block;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--soft);margin-bottom:.4rem}
+.fr input,.fr select,.fr textarea{width:100%;padding:.7rem 1rem;border:1px solid rgba(90,74,58,.2);border-radius:3px;font-family:'Jost',sans-serif;font-size:.85rem;font-weight:300;color:var(--dark);background:var(--white);outline:none;transition:border-color .2s}
+.fr input:focus,.fr select:focus,.fr textarea:focus{border-color:var(--pink)}
+.fr textarea{resize:vertical;min-height:80px}
+.sub{width:100%;padding:.9rem;background:var(--dark);color:#fff;border:none;border-radius:100px;font-family:'Jost',sans-serif;font-size:.8rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;transition:background .2s;margin-top:.5rem}
 .sub:hover{background:var(--pink)}
-.rsc{text-align:center;padding:3rem 2rem;font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:var(--pink);display:none;font-weight:300}
-.err{font-size:.85rem;color:#b44;text-align:center;margin-top:.8rem;display:none;font-weight:500}
-footer{background:var(--dark);padding:6rem 3rem;text-align:center}
-.footer-names{font-family:'Cormorant Garamond',serif;font-size:3.5rem;font-weight:300;color:#fff;margin-bottom:.8rem}
+.rsc{text-align:center;padding:2rem;font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--pink);display:none}
+.err{font-size:.78rem;color:#b44;text-align:center;margin-top:.65rem;display:none}
+footer{background:var(--dark);padding:5rem 3rem;text-align:center}
+.footer-names{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;margin-bottom:.5rem}
 .footer-names em{font-style:italic;color:var(--pink-l)}
-.footer-date{font-size:11px;letter-spacing:.25em;color:var(--pink-l);opacity:.6;margin-bottom:2rem;text-transform:uppercase;font-weight:500}
-.footer-note{font-size:12px;color:rgba(255,255,255,.25);letter-spacing:.05em;font-weight:300}
+.footer-date{font-size:9px;letter-spacing:.25em;color:var(--pink-l);opacity:.5;margin-bottom:2rem;text-transform:uppercase}
+.footer-note{font-size:11px;color:rgba(255,255,255,.2);letter-spacing:.05em}
 @media(max-width:768px){
   #hero{grid-template-columns:1fr;height:auto}
   .hero-img{height:60vh}
   .hero-text{padding:3rem 2rem}
   .story-grid,.venue-grid,.rsvp-grid{grid-template-columns:1fr}
-  .event-item{grid-template-columns:50px 1fr}
-  .event-emoji{display:none}
-  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
-  .g1{grid-row:auto;height:240px}
+  .event-item{grid-template-columns:36px 1fr;gap:1rem}
+  .event-detail,.event-emoji{display:none}
+  .gallery-grid{grid-template-columns:1fr}
+  .g1{grid-column:1;grid-row:auto}
   .sec{padding:4rem 1.5rem}
   nav{padding:1rem 1.5rem}
   .nav-links{gap:1.25rem}
   .nav-links a{font-size:9px}
-  .cd{gap:1.5rem;flex-wrap:wrap}
-  .cdn{font-size:2rem;padding:.8rem 1.2rem}
 }
 </style>
 </head>
@@ -141,7 +139,7 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
       Ankit
     </h1>
     <p class="hero-date">25th November, 2026</p>
-    <p class="hero-hash">#AnkitkiShreni</p>
+    <p class="hero-hash">#AnkitKiSHerni</p>
     <div class="cd">
       <div class="cdb"><span class="cdn" id="cd-d">--</span><span class="cdl">Days</span></div>
       <span class="cd-sep">·</span>
@@ -178,8 +176,8 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <div>
           <div class="event-name">Ring &amp; Rhythm</div>
           <div class="event-sub">Sangeet &amp; Engagement</div>
-          <div class="event-detail">Monday, 24 November 2026<br>5:00 PM onwards<br><br>Music, dance &amp; the rings that seal it all</div>
         </div>
+        <div class="event-detail">Monday, 24 November 2026<br>5:00 PM onwards<br>Music, dance &amp; the rings that seal it all</div>
         <div class="event-emoji">💍</div>
       </div>
       <div class="event-item">
@@ -187,8 +185,8 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <div>
           <div class="event-name">Turmeric Tales</div>
           <div class="event-sub">Haldi Ceremony</div>
-          <div class="event-detail">Tuesday, 25 November 2026<br>9:00 AM onwards<br><br>Golden blessings &amp; the glow that follows</div>
         </div>
+        <div class="event-detail">Tuesday, 25 November 2026<br>9:00 AM onwards<br>Golden blessings &amp; the glow that follows</div>
         <div class="event-emoji">🌼</div>
       </div>
       <div class="event-item">
@@ -196,8 +194,8 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <div>
           <div class="event-name">The Eternal Vow</div>
           <div class="event-sub">Wedding &amp; Reception</div>
-          <div class="event-detail">Tuesday, 25 November 2026<br>5:00 PM onwards<br><br>Where forever officially begins</div>
         </div>
+        <div class="event-detail">Tuesday, 25 November 2026<br>5:00 PM onwards<br>Where forever officially begins</div>
         <div class="event-emoji">✨</div>
       </div>
     </div>
@@ -205,18 +203,16 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
 </section>
 <div class="quote-sec">
   <blockquote>"After all this time, choosing you is still the easiest thing I do."</blockquote>
-  #AnkitkiShreni &nbsp;·&nbsp; 25 · 11 · 2026
+  <cite>#AnkitKiSHerni &nbsp;·&nbsp; 25 · 11 · 2026</cite>
 </div>
 <section id="gallery">
   <div class="sec-inner">
     <span class="gallery-eyebrow">A glimpse of us</span>
-    <h2 class="gallery-title">We keep this love in a photograph</h2>
+    <h2 class="gallery-title">Moments that brought us here</h2>
     <div class="gallery-grid">
-      <img class="g-img g1" src="./images/story.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center top">
-      <img class="g-img" src="./images/strip1.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center bottom;height:300px">
-      <img class="g-img" src="./images/night.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 40%;height:300px">
-      <img class="g-img" src="./images/strip2.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 20%;height:300px">
-      <img class="g-img" src="./images/hero.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center bottom;height:300px">
+      <img class="g-img g1" src="./images/story.jpg" alt="Shreya and Ankit" loading="lazy">
+      <img class="g-img" src="./images/strip2.jpg" alt="Shreya and Ankit" loading="lazy">
+      <img class="g-img" src="./images/hero.jpg" alt="Shreya and Ankit" loading="lazy">
     </div>
   </div>
 </section>
@@ -227,7 +223,11 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <span class="eyebrow">Where to find us</span>
         <span class="thin-line"></span>
         <div class="venue-name">Mannat Palace</div>
-        <div class="venue-addr">New City Centre, Sirol Main Rd<br>Dongarpur, Gwalior<br>Madhya Pradesh — 474006</div>
+        <div class="venue-addr">
+          New City Centre, Sirol Main Rd<br>
+          Dongarpur, Gwalior<br>
+          Madhya Pradesh — 474006
+        </div>
         <div class="venue-tags">
           <span class="vtag">✈️ Airport · 18 km</span>
           <span class="vtag">🚉 Railway · 10 km</span>
@@ -235,7 +235,7 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <a class="vbtn" href="https://maps.google.com/?q=Mannat+Palace+Sirol+Dongarpur+Gwalior" target="_blank" rel="noopener noreferrer">Get Directions →</a>
       </div>
       <div class="venue-img">
-        <img src="./images/strip2.jpg" alt="Venue" loading="lazy" style="object-position:center 25%">
+        <img src="./images/night.jpg" alt="Venue" loading="lazy">
       </div>
     </div>
   </div>
@@ -249,7 +249,7 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <span class="thin-line"></span>
         <p>"We would be incomplete without you there. Your presence is our biggest gift — come celebrate love with us. ♡"</p>
         <div class="rsvp-img">
-          <img src="./images/engage.jpg" alt="Shreya and Ankit" loading="lazy" style="object-position:center 15%">
+          <img src="./images/strip1.jpg" alt="Shreya and Ankit" loading="lazy">
         </div>
       </div>
       <div class="rf" id="rsvp-form-wrap">
@@ -272,7 +272,7 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
         <div class="err" id="r-err" role="alert">Please fill in your name and attendance choice.</div>
         <div class="rsc" id="r-ok" role="status">
           <p>Thank you! We can't wait to celebrate with you ♡</p>
-          <p style="font-size:.9rem;color:var(--soft);margin-top:.8rem;font-style:normal">#AnkitkiShreni</p>
+          <p style="font-size:.82rem;color:var(--soft);margin-top:.5rem;font-style:normal">#AnkitKiSHerni</p>
         </div>
       </div>
     </div>
@@ -280,7 +280,7 @@ footer{background:var(--dark);padding:6rem 3rem;text-align:center}
 </section>
 <footer>
   <div class="footer-names"><em>Shreya</em> &amp; Ankit</div>
-  <div class="footer-date">#AnkitkiShreni &nbsp;·&nbsp; 25 · 11 · 2026</div>
+  <div class="footer-date">#AnkitKiSHerni &nbsp;·&nbsp; 25 · 11 · 2026</div>
   <div class="footer-note">Mannat Palace, Gwalior &nbsp;·&nbsp; With love &amp; joy</div>
 </footer>
 <script>
@@ -296,7 +296,7 @@ function tick(){
   document.getElementById('cd-s').textContent=Math.floor(t%60000/1000);
 }
 tick();setInterval(tick,1000);
-var FORMSPREE_ID='mvzndpaq';
+var FORMSPREE_ID='YOUR_FORM_ID';
 function sendRSVP(){
   var name=document.getElementById('r-name').value.trim();
   var att=document.getElementById('r-att').value;
@@ -305,7 +305,7 @@ function sendRSVP(){
   errEl.style.display='none';
   if(!name||!att){errEl.style.display='block';return}
   btn.disabled=true;btn.textContent='Sending…';
-  if(!FORMSPREE_ID||FORMSPREE_ID==='mvzndpaq'){showSuccess();return}
+  if(!FORMSPREE_ID||FORMSPREE_ID==='YOUR_FORM_ID'){showSuccess();return}
   fetch('https://formspree.io/f/'+FORMSPREE_ID,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({name:name,phone:document.getElementById('r-phone').value,attending:att,guests:document.getElementById('r-guests').value,note:document.getElementById('r-note').value})})
   .then(function(r){if(r.ok){showSuccess()}else{throw new Error()}})
   .catch(function(){btn.disabled=false;btn.textContent='Send my RSVP';errEl.textContent='Something went wrong — please try again.';errEl.style.display='block'});
