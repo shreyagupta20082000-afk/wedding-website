@@ -109,9 +109,14 @@ footer{background:var(--dark);padding:5rem 3rem;text-align:center}
   #hero{grid-template-columns:1fr;height:auto}
   .hero-img{height:60vh}
   .hero-text{padding:3rem 2rem}
+  .cd{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
+  .cd-sep{display:none}
   .story-grid,.venue-grid,.rsvp-grid{grid-template-columns:1fr}
-  .event-item{grid-template-columns:36px 1fr;gap:1rem}
-  .event-detail,.event-emoji{display:none}
+  .event-item{grid-template-columns:30px 1fr 44px;grid-template-areas:"num name emoji" "detail detail detail";gap:.6rem .75rem;align-items:start;padding:1.5rem 1.25rem}
+  .event-num{grid-area:num}
+  .event-item>div:nth-child(2){grid-area:name}
+  .event-detail{display:block;grid-area:detail;margin-top:.25rem;padding-top:.75rem;border-top:1px solid rgba(168,125,74,.15)}
+  .event-emoji{grid-area:emoji;display:flex;width:44px;height:44px;font-size:1.25rem}
   .gallery-grid{grid-template-columns:1fr}
   .g-top{height:300px}
   .g-bottom{grid-column:1;height:260px}
